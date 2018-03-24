@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>no</title>
+</head>
+
+<body class="is-component">
+<div id="app" class="is-component"></div>
+<!-- built files will be auto injected -->
+</body>
+
+</html>
+<style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  body {
+    display: block;
+  }
+
+  body.is-component {
+    overflow: hidden;
+  }
+
+  div {
+    display: block;
+  }
+
+  #app.is-component {
+    overflow-y: hidden;
+  }
+
+  #app {
+    height: 100%;
+  }
+
+  @media (max-width: 768px) {
+    body.is-component {
+      overflow: auto;
+    }
+  }
+</style>
